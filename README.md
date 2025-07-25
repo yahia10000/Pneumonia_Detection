@@ -42,8 +42,14 @@ are applied using `ImageDataGenerator`.
 ### 8. **Evaluation**
 - Accuracy and loss plots.
 - *Final Accuracy:** `92.79%`
+
+
 ![Accuracy](images/image3.png)
+
+
 - *Final Loss:** `0.2622`
+
+
 ![loss](images/image4.png)
 
 - Classification report and confusion matrix on the test set.
