@@ -2,6 +2,6 @@
 base = "dark"
 primaryColor = "#00BFFF"
 backgroundColor = "#F0F8FF"           # خلفية فاتحة يدويًا
-secondaryBackgroundColor = "#FFFFFF"
-textColor = "#FFFFFF"                 # خط أبيض
+secondaryBackgroundColor = "#c20000ff"
+textColor = "#ffffffff"                 # خط أبيض
 font = "sans serif"
