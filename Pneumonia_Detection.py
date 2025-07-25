@@ -2,8 +2,30 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
-import streamlit as st
+
+
 from PIL import Image
+import streamlit as st
+
+# --- Custom background using CSS ---
+def set_background(image_file):
+    with open(image_file, "rb") as img_file:
+        b64_string = base64.b64encode(img_file.read()).decode()
+    css_code = f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/png;base64,{b64_string}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+    </style>
+    """
+    st.markdown(css_code, unsafe_allow_html=True)
+
+# Call the background function at the beginning of your app
+import base64
+set_background("images/bg.png")  
 
 
 
