@@ -1,7 +1,7 @@
 [theme]
 base = "dark"
 primaryColor = "#00BFFF"
-backgroundColor = "#F0F8FF"           # خلفية فاتحة يدويًا
-secondaryBackgroundColor = "#c20000ff"
+backgroundColor = "#e2989eff"           # خلفية فاتحة يدويًا
+secondaryBackgroundColor = "#750404ff"
 textColor = "#ffffffff"                 # خط أبيض
 font = "sans serif"
