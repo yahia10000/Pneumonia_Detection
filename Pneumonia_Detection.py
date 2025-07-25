@@ -3,9 +3,14 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 
-
 from PIL import Image
 import streamlit as st
+import base64
+
+
+
+model = load_model("pneumonia_model.h5")
+
 
 # --- Custom background using CSS ---
 def set_background(image_file):
@@ -24,13 +29,12 @@ def set_background(image_file):
     st.markdown(css_code, unsafe_allow_html=True)
 
 # Call the background function at the beginning of your app
-import base64
 set_background("images/bg.png")  
 
 
 
 
-model = load_model("pneumonia_model.h5")
+
 
 st.set_page_config(page_title="Pneumonia Detector", layout="centered")
 st.title("🩺 Pneumonia Detection from Chest X-Ray")
