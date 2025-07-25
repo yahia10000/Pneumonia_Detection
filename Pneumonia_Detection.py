@@ -24,7 +24,7 @@ if uploaded_file is not None:
     img_resized = image_pil.resize((150, 150))
     
      
-    st.image(img_resized, caption="Uploaded Image", use_column_width=False, width=300)
+    st.image(img_resized, caption="Uploaded Image",  use_container_width=False, width=300)
 
     img_array = image.img_to_array(img_resized) 
     img_array = img_array / 255.0
