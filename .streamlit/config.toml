@@ -1,7 +1,7 @@
 [theme]
-base = "light"
-primaryColor = "#00BFFF"              # DeepSkyBlue accent
-backgroundColor = "#F0F8FF"           # AliceBlue - فاتحة ومريحة
-secondaryBackgroundColor = "#FFFFFF"  # أبيض للبطاقات أو الجوانب
-textColor = "#000000"                 # أسود لقراءة أوضح
+base = "dark"
+primaryColor = "#00BFFF"
+backgroundColor = "#F0F8FF"           # خلفية فاتحة يدويًا
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#FFFFFF"                 # خط أبيض
 font = "sans serif"
