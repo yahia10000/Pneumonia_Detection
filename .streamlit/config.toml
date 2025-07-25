@@ -1,7 +1,7 @@
 [theme]
-base = "light"
-primaryColor = "#784600"
-backgroundColor = "#F7F5E7"
-secondaryBackgroundColor = "#EEEBD4"
-textColor = "#2E2C1A"
-font = "serif"
+base = "dark"
+primaryColor = "#00CED1"              # Turquoise accent, unchanged
+backgroundColor = "#121212"           # Deep dark gray for a cleaner, modern background
+secondaryBackgroundColor = "#1E1E1E"  # Subtle contrast for side panels/cards
+textColor = "#D0D0D0"                 # Slightly softer gray for less harsh contrast
+font = "sans serif"                   # Clean and modern
