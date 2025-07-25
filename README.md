@@ -58,7 +58,6 @@ Check out the live deployed version of the model on **Streamlit Cloud**:
 
 👉 [**Live Demo**](https://pneumoniadetection-vdmau5rqx8zhtv4dgfplsi.streamlit.app/)
 
-> _Make sure to update the above link with your actual Streamlit app URL._
 
 ---
 
